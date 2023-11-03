@@ -1,0 +1,57 @@
+<!--Regra de comentários: Comentário faz referência a(s) linha(s) de baixo-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uniso Mapp</title>
+<!--Santiago - Logo ao lado do titulo da página(1linha)-->  
+  <link rel="shortcurt icon" href="assets/Imagem/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="implementar.css">
+<!--Schuab - Fonte atual do projeto(1linha)-->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+  <script src="implementar.js" defer></script>
+</head>
+<body>
+<!--Schuab - Header(Início)-->
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <a href="implementar.html" id="logo"><img src="assets/Imagem/logo.svg" alt="logo"></a> 
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item" id="link_biblioteca "onclick="changeImage('link_biblioteca')"><a href="#" class="nav-link">BIBLIOTECA</a></li>
+          <li class="nav-item" id="link_saa "onclick="changeImage('link_saa')"><a href="#" class="nav-link">SAA</a></li>
+          <li class="nav-item" id="link_blocos "onclick="changeImage('link_blocos')"><a href="#" class="nav-link">BLOCOS</a></li>
+          <li class="nav-item" id="link_apoios "onclick="changeImage('link_apoios')"><a href="#" class="nav-link">APOIOS</a></li>
+          <li class="nav-item" id="link_extras "onclick="changeImage('link_extras')"><a href="#" class="nav-link">EXTRAS</a></li>
+        </ul>
+      </div>
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="assets/Imagem/menu_white_36dp.svg" alt=""></button>
+      </div>
+    </nav>
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item" id="link_biblioteca "onclick="changeImage('link_biblioteca')"><a href="#" class="nav-link">BIBLIOTECA</a></li>
+        <li class="nav-item" id="link_saa "onclick="changeImage('link_saa')"><a href="#" class="nav-link">SAA</a></li>
+        <li class="nav-item" id="link_blocos "onclick="changeImage('link_blocos')"><a href="#" class="nav-link">BLOCOS</a></li>
+        <li class="nav-item" id="link_apoios "onclick="changeImage('link_apoios')"><a href="#" class="nav-link">APOIOS</a></li>
+        <li class="nav-item" id="link_extras "onclick="changeImage('link_extras')"><a href="#" class="nav-link">EXTRAS</a></li>
+      </ul>
+    </div>
+  </header>
+<!--Schuab - Header(Fim)-->
+<!--Schuab/Santiago - Hero Section(Início)-->
+  <div class="conteúdo_principal">
+    <div class="conteúdo">  
+      <img id="mapa_inicial"src="assets/Imagem/homepage.svg" alt="Mapa Inicial">
+    </div>
+  </div>
+<!--Schuab/Santiago - Hero Section(Fim)-->
+<!--Footer(Início)-->
+<!--Footer(Fim)-->
+</body>
+</html>

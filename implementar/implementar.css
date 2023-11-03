@@ -1,0 +1,149 @@
+/*Schuab - Tudo colocado aqui é aplicado em todo o código, pois body é o primeiro parent */  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+  }
+/*Schuab - Header(Início)*/
+  header {
+    background: #2c3e50;
+    box-shadow: 0px 3px 10px #577896;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    position: sticky;
+    height: 8vh;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    cursor: pointer;
+    margin-left: 0;
+  }
+
+  #logo {
+    width: 100px;
+    height: auto;
+  }
+    
+  .nav-list {
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+  }
+
+  .nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .nav-item {
+    margin: 0 15px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  .nav-link:hover {
+    color: rgb(188, 54, 45);
+    transition: all 0.3s ease; 
+  }
+
+  .mobile-menu-icon {
+    display: none;
+    margin-top: .5rem;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+
+/*Schuab - Header(Fim*/
+/*Schuab - Hero Section(Início)*/
+  .conteúdo_principal {
+    background-color: #333333;
+  }
+  .conteúdo {
+    margin: 0 auto;
+    height: 90vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 75rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .conteúdo img {
+    margin: 0 auto;
+    height: 90vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 75rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+  }
+/*Schuab - Hero Section(Fim)*/
+/*Footer Section(Início)*/
+/*Footer Section(Fim)*/
+/*Responsividade(Início)*/
+@media screen and (max-width: 730px) {
+  .nav-bar {
+      padding: 1.5rem 4rem;
+  }
+  .nav-item {
+      display: none;
+  }
+  .login-button {
+      display: none;
+  }
+  .mobile-menu-icon {
+      display: block;
+  }
+  .mobile-menu-icon button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+  }
+  .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+  }
+  .mobile-menu .nav-item {
+      display: block;
+      padding-top: 1.2rem;
+  }
+  .mobile-menu .login-button {
+      display: block;
+      padding: 1rem 2rem;
+  }
+  .mobile-menu .login-button button {
+      width: 100%;
+  }
+  .open {
+      display: block;
+  }
+}
+
+
+
+/*Responsividade(Fim)*/
